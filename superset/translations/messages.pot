@@ -3696,6 +3696,11 @@ msgstr ""
 msgid "Columns to show in the tooltip."
 msgstr ""
 
+msgid ""
+"Columns viewers are allowed to group by. Leave empty to allow all "
+"groupable columns."
+msgstr ""
+
 msgid "Combine metrics"
 msgstr ""
 
@@ -7107,6 +7112,9 @@ msgid "Group name"
 msgstr ""
 
 msgid "Group remaining as \"Others\""
+msgstr ""
+
+msgid "Groupable columns"
 msgstr ""
 
 msgid "Grouping"
