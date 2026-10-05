@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  Superset\n"
 "Report-Msgid-Bugs-To: dkrat7 @github.com\n"
-"POT-Creation-Date: 2026-10-02 21:57-0700\n"
+"POT-Creation-Date: 2026-10-05 20:37+0000\n"
 "PO-Revision-Date: 2026-07-29 16:16+0200\n"
 "Last-Translator: lapor-kris <lapor-kris@github.com>\n"
 "Language: sl_SI\n"
@@ -1866,6 +1866,9 @@ msgstr "Vse dimenzije"
 
 msgid "All filters"
 msgstr "Vsi filtri"
+
+msgid "All groupable columns"
+msgstr ""
 
 msgid "All panels"
 msgstr "Vsi paneli"
@@ -4367,9 +4370,7 @@ msgstr "Stolpci za branje"
 msgid "Columns to show in the tooltip."
 msgstr "Stolpci, prikazani v opisu orodja."
 
-msgid ""
-"Columns viewers are allowed to group by. Leave empty to allow all "
-"groupable columns."
+msgid "Columns viewers can choose to group charts by."
 msgstr ""
 
 msgid "Combine metrics"
@@ -9294,6 +9295,11 @@ msgid "Leave blank to keep the current password"
 msgstr ""
 
 msgid ""
+"Leave empty, or keep every column selected, to let viewers group by any "
+"groupable column, including columns added to the dataset later."
+msgstr ""
+
+msgid ""
 "Leave on the deployment default unless you need to force asynchronous "
 "loading on or off for this dashboard."
 msgstr ""
@@ -10794,6 +10800,10 @@ msgstr "Ni najden"
 
 msgid "Not in"
 msgstr "Ne vsebuje (NOT IN)"
+
+#, python-format
+msgid "Not in this dataset, so viewers will not see: %s"
+msgstr ""
 
 msgid "Not null"
 msgstr "Ni null (IS NOT NULL)"
@@ -15673,6 +15683,11 @@ msgstr "Stolpec, ki bo uporabljen kot cilj povezave."
 
 msgid "The column was deleted or renamed in the database."
 msgstr "Stolpec je bil izbrisan ali preimenovan v podatkovni bazi."
+
+msgid ""
+"The columns allowed for this control are no longer in the dataset. Ask "
+"the dashboard owner to update it."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]

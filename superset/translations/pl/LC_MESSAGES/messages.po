@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-02 21:57-0700\n"
+"POT-Creation-Date: 2026-10-05 20:37+0000\n"
 "PO-Revision-Date: 2021-11-16 17:33+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -1951,6 +1951,9 @@ msgstr "Wymiary"
 
 msgid "All filters"
 msgstr "Wszystkie filtry"
+
+msgid "All groupable columns"
+msgstr ""
 
 #, fuzzy
 msgid "All panels"
@@ -4643,9 +4646,7 @@ msgstr "Kolumny do odczytu"
 msgid "Columns to show in the tooltip."
 msgstr "Podpowiedź nagłówka kolumny"
 
-msgid ""
-"Columns viewers are allowed to group by. Leave empty to allow all "
-"groupable columns."
+msgid "Columns viewers can choose to group charts by."
 msgstr ""
 
 #, fuzzy
@@ -10108,6 +10109,11 @@ msgid "Leave blank to keep the current password"
 msgstr ""
 
 msgid ""
+"Leave empty, or keep every column selected, to let viewers group by any "
+"groupable column, including columns added to the dataset later."
+msgstr ""
+
+msgid ""
 "Leave on the deployment default unless you need to force asynchronous "
 "loading on or off for this dashboard."
 msgstr ""
@@ -11724,6 +11730,10 @@ msgstr "Nie znaleziono wykresu"
 
 msgid "Not in"
 msgstr "Nie w"
+
+#, python-format
+msgid "Not in this dataset, so viewers will not see: %s"
+msgstr ""
 
 msgid "Not null"
 msgstr "Nie puste"
@@ -17150,6 +17160,11 @@ msgstr "Kolumna używana jako cel krawędzi."
 
 msgid "The column was deleted or renamed in the database."
 msgstr "Kolumna została usunięta lub przemianowana w bazie danych."
+
+msgid ""
+"The columns allowed for this control are no longer in the dataset. Ask "
+"the dashboard owner to update it."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]

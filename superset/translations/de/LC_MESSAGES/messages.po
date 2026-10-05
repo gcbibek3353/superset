@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-02 21:57-0700\n"
+"POT-Creation-Date: 2026-10-05 20:37+0000\n"
 "PO-Revision-Date: 2023-04-07 19:45+0200\n"
 "Last-Translator: Holger Bruch <holger.bruch@wattbewerb.de>\n"
 "Language: de\n"
@@ -1801,6 +1801,9 @@ msgstr "Alle Dimensionen"
 
 msgid "All filters"
 msgstr "Alle Filter"
+
+msgid "All groupable columns"
+msgstr ""
 
 msgid "All panels"
 msgstr "Alle Bereiche"
@@ -4284,9 +4287,7 @@ msgstr "Zu lesende Spalten"
 msgid "Columns to show in the tooltip."
 msgstr "Spalten, die im Tooltip angezeigt werden sollen."
 
-msgid ""
-"Columns viewers are allowed to group by. Leave empty to allow all "
-"groupable columns."
+msgid "Columns viewers can choose to group charts by."
 msgstr ""
 
 msgid "Combine metrics"
@@ -9119,6 +9120,11 @@ msgid "Leave blank to keep the current password"
 msgstr ""
 
 msgid ""
+"Leave empty, or keep every column selected, to let viewers group by any "
+"groupable column, including columns added to the dataset later."
+msgstr ""
+
+msgid ""
 "Leave on the deployment default unless you need to force asynchronous "
 "loading on or off for this dashboard."
 msgstr ""
@@ -10578,6 +10584,10 @@ msgstr "Nicht gefunden"
 
 msgid "Not in"
 msgstr "Nicht in"
+
+#, python-format
+msgid "Not in this dataset, so viewers will not see: %s"
+msgstr ""
 
 msgid "Not null"
 msgstr "Nicht NULL"
@@ -15408,6 +15418,11 @@ msgstr "Die Spalte, die als Ziel der Kante verwendet werden soll."
 
 msgid "The column was deleted or renamed in the database."
 msgstr "Die Spalte wurde in der Datenbank gelöscht oder umbenannt."
+
+msgid ""
+"The columns allowed for this control are no longer in the dataset. Ask "
+"the dashboard owner to update it."
+msgstr ""
 
 msgid "The configuration for the map layers"
 msgstr "Die Konfiguration der Kartenebenen"
